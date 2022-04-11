@@ -25,3 +25,14 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Bases de proyecto angular 
+
+1 - implementa rutas rutas a nuestra aplicación
+2 - RouterLink y MenuComponent
+3 - Módulo de paginas 
+4 - LazyLoad de postComponents
+5 - Servicios y data externa 
+6 - Mostrar POSTS en el componente
+7 - @Input -> enviar informacion hacia un componente Hijo
+8 - @Output -> emitir eventos desde un componente Hijo 
