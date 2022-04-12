@@ -22,4 +22,8 @@ export class PostsComponent implements OnInit {
     // });
   }
 
+  onClickPost(id: number) {
+    console.log(`evento recibido al padre desde el hijo ${id}`);
+  }
+
 }

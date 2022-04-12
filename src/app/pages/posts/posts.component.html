@@ -4,5 +4,6 @@
         <h2>{{mensaje.title}}</h2>
         <p>{{mensaje.body}}</p>
     </li> -->
-    <app-post *ngFor="let mensaje of mensajes | async" [mensaje]="mensaje"></app-post>
+    <app-post *ngFor="let mensaje of mensajes | async" [mensaje]="mensaje"
+    (clickPost)="onClickPost($event)"></app-post>
 </ul>
