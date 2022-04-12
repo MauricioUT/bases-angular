@@ -14,7 +14,7 @@ const routes: Routes = [
     path: 'posts',
     //loadChildren: './pages/posts/posts.module#PostsModule' //forma de importar modulos
     loadChildren: () => import('./pages/posts/posts.module') // esto devuelve una promesa, es la forma adecuada de hacer el lazyLoad
-    .then( m => m.PostsModule)
+    .then( m => m.PostsModule) // las promesas se resuelven con el then catch
   },
   { path: '**', redirectTo: 'home' },
 ];
